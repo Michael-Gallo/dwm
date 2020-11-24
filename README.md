@@ -4,7 +4,10 @@ My build of DWM
 # Modifications
 ## Added Patches :
 - Autostart
+- Bar Height
 - Fullscreen
+- Useless Gaps
+
 
 # Installation
 
