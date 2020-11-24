@@ -1,3 +1,4 @@
 #!/bin/bash
 sxhkd &
-picom
+picom &
+nitrogen --restore
