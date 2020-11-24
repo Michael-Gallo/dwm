@@ -7,7 +7,7 @@ My build of DWM
 - Bar Height
 - Fullscreen
 - Useless Gaps
-
+- fixborders (found in alpha patch section)
 
 # Installation
 
