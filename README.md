@@ -9,6 +9,7 @@ My build of DWM
 - Useless Gaps
 - fixborders (found in alpha patch section)
 - maximize
+- circlelayouts
 
 ## Personalization:
 - Added icons for tags (needs ttf-font-awesome installed)
