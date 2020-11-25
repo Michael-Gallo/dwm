@@ -10,9 +10,10 @@ static const int user_bh            = 22;        /* 0 means that dwm will calcul
 static const char *fonts[]          = 
 { 
         "monospace:size=11",
+        "JoyPixels:size=11",
         "Font Awesome 5 Free Regular:size=11",
         "Font Awesome 5 Free Solid:size=11",
-        "Font Awesome 5 Brands Regular:size=11" 
+        "Font Awesome 5 Brands Regular:size=11"
 };
 static const char dmenufont[]       = "monospace:size=11";
 static const char col_gray1[]       = "#222222";
@@ -28,7 +29,6 @@ static const char *colors[][3]      = {
 
 /* tagging */
 static const char *tags[] = { "", "", "", "", ""};
-
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
