@@ -9,6 +9,15 @@ My build of DWM
 - Useless Gaps
 - fixborders (found in alpha patch section)
 
+## Personalization:
+- Added icons for tags (needs ttf-font-awesome installed)
+- Set number of tags to 5
+- Added gaps and colorful window borders
+- Green and Black Color Scheme
+- Set master window factor to 50% (Master will take up 1/2 of the screen)
+- Modkey changed to super
+- Launcher keybinds removed (I use sxhkd for those)
+- Set barheight to 22
 # Installation
 
 After compiling add a file like this as /usr/share/xsessions/dwm.desktop
