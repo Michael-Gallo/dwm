@@ -8,6 +8,7 @@ My build of DWM
 - Fullscreen
 - Useless Gaps
 - fixborders (found in alpha patch section)
+- maximize
 
 ## Personalization:
 - Added icons for tags (needs ttf-font-awesome installed)
