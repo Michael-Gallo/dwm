@@ -10,6 +10,7 @@ My build of DWM
 - fixborders (found in alpha patch section)
 - maximize
 - circlelayouts
+- statusallmons
 
 ## Personalization:
 - Added icons for tags (needs ttf-font-awesome installed)
@@ -20,6 +21,7 @@ My build of DWM
 - Modkey changed to super
 - Launcher keybinds removed (I use sxhkd for those)
 - Set barheight to 22
+- Status bar displays the same on all monitors
 # Installation
 
 After compiling add a file like this as /usr/share/xsessions/dwm.desktop
