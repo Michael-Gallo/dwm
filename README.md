@@ -11,6 +11,7 @@ My build of DWM
 - maximize
 - circlelayouts
 - statusallmons
+- focusonclick
 
 ## Personalization:
 - Added icons for tags (needs ttf-font-awesome installed)
@@ -22,6 +23,7 @@ My build of DWM
 - Launcher keybinds removed (I use sxhkd for those)
 - Set barheight to 22
 - Status bar displays the same on all monitors
+- removed sloppy focus, edited focusonclick patch so it wouldn't ruin floating behavior
 # Installation
 
 After compiling add a file like this as /usr/share/xsessions/dwm.desktop
