@@ -3,7 +3,6 @@ My build of DWM
 
 # Modifications
 ## Added Patches :
-- Autostart
 - Bar Height
 - Fullscreen
 - Useless Gaps
@@ -36,7 +35,3 @@ Exec= dwm
 Type=Application
 ```
 
-To make autostart script work run this command
-```
-ln -s $HOME/dwm/autostart.sh $XDG_DATA_HOME/dwm/autostart.sh 
-```
