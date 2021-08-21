@@ -39,6 +39,13 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Gnome-calculator",  NULL,       NULL,       0,       1,           -1 },
+	{ "Waterfox",  NULL,       NULL,       1<<2,           0,           -1 },
+	{ "discord",  "discord",       NULL,       1<<0,           0,           -1},
+	{ "Skype",  "skype",       NULL,       1<<0,           1,           0},
+	{ "Chromium",  NULL,       NULL,       1<<3,           0,           -1},
+	{ "Lutris",  "lutris",       NULL,       1<<1,           0,           -1},
+	{ "Steam",  NULL,       NULL,       1<<1,           0,           -1},
+	{ "libreoffice-calc",  "libreoffice",       NULL,       1<<3,           0,           0},
 };
 
 /* layout(s) */
@@ -70,11 +77,11 @@ static const Layout layouts[] = {
 #include "maximize.c"
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	// { MODKEY,                       XK_b,      togglebar,      {0} },
+    { MODKEY,                       XK_q,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	// { MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
-	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
+	// { MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_semicolon,      zoom,           {0} },
@@ -99,6 +106,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
 	TAGKEYS(                        XK_5,                      4)
+	TAGKEYS(                        XK_6,                      5)
 };
 
 /* button definitions */
