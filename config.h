@@ -39,6 +39,8 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Gnome-calculator",  NULL,       NULL,       0,       1,           -1 },
+	{ "XCalc",  "xcalc",       NULL,       0,       1,           -1 },
+	{ "Galculator",  "galculator",       NULL,       0,       1,           -1 },
 	{ "Waterfox",  NULL,       NULL,       1<<2,           0,           -1 },
 	{ "discord",  "discord",       NULL,       1<<0,           0,           -1},
 	{ "Skype",  "skype",       NULL,       1<<0,           1,           0},
