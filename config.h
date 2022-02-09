@@ -12,9 +12,7 @@ static const char *fonts[]          =
 { 
         "monospace:size=11",
         "JoyPixels:size=11",
-        "Font Awesome 5 Free Regular:size=11",
-        "Font Awesome 5 Free Solid:size=11",
-        "Font Awesome 5 Brands Regular:size=11"
+        "FontAwesome:size=11"
 };
 static const char dmenufont[]       = "monospace:size=11";
 static const char col_gray1[]       = "#222222";
@@ -29,7 +27,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", ""};
+static const char *tags[] = { "", "","", "", ""};
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
@@ -38,9 +36,10 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
-	{ "Gnome-calculator",  NULL,       NULL,       0,       1,           -1 },
+	// { "Gnome-calculator",  NULL,       NULL,       0,       1,           -1 },
 	{ "XCalc",  "xcalc",       NULL,       0,       1,           -1 },
 	{ "Galculator",  "galculator",       NULL,       0,       1,           -1 },
+	{ "float",      NULL,       NULL,       0,       1,           -1 },
 	{ "Waterfox",  NULL,       NULL,       1<<2,           0,           -1 },
 	{ "discord",  "discord",       NULL,       1<<0,           0,           -1},
 	{ "Skype",  "skype",       NULL,       1<<0,           1,           0},
